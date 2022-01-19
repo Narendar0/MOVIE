@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+
+import './stylesheets/index.css';
+import { HallForm } from './components/HallForm';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <HallForm />,
+ 
   document.getElementById('root')
 );
 
